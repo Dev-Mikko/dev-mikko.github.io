@@ -6,9 +6,11 @@
 
 html {
 	font-family: Roboto;
-	background-image: url('img/background.jpg');
-	background-size: cover !important;
-	background-position: fixed;
+	background-image: url('img/background.png');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
 }
 
 body {
@@ -26,49 +28,97 @@ body {
     .col-1 {
 		width: 8.33%;
 	}
-    
+
 	.col-2 {
 		width: 16.66%;
 	}
-	
+
     .col-3 {
 		width: 25%;
 	}
-	
+
     .col-4 {
 		width: 33.33%;
 	}
-    
+
 	.col-5 {
 		width: 41.66%;
 	}
-    
+
 	.col-6 {
 		width: 50%;
 	}
-	
+
     .col-7 {
 		width: 58.33%;
 	}
-	
+
     .col-8 {
 		width: 66.66%;
 	}
     .col-9 {
 		width: 75%;
 	}
-	
+
     .col-10 {
 		width: 83.33%;
 	}
-	
+
     .col-11 {
 		width: 91.66%;
 	}
-	
+
     .col-12 {
 		width: 100%;
 	}
 }
 
+.navbar {
+	background-color: rgba(128, 128, 128, 0.5);
+	border-bottom: 1px solid #000000;
+}
+
+.navmenu {
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.navobj {
+	display: inline-block;
+	color: #FFFFFF;
+	width: 150px;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+.navobj:hover {
+	background-color: rgba(128, 128, 128, 0.6);
+	border-bottom: 5px solid #469710;
+	margin-bottom: -5px;
+}
+
+.icon {
+	font-size: 24px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.main {
+	padding: 0 8.33%;
+}
+
+.box {
+	border: 1px solid #000000;
+	padding: 15px;
+	margin: 15px 0;
+}
+
 /* IDs */
+
+
+
+/* Animations */
